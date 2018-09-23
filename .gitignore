@@ -1,0 +1,12 @@
+/winutils-master
+/Pig
+/hadoop-3.1.1-src
+/hadoop-3.0.0
+/hadoop-3.1.1
+/.vscode
+/downloads
+*.class
+/hadoop-2.7.6
+/eclipse/externalJarsForEclipse
+/eclipse/HadoopEclipseWorkspace/.metadata
+/eclipse/HadoopEclipseWorkspace/.recommenders
