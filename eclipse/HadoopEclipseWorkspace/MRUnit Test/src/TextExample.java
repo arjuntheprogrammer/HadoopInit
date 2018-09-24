@@ -5,6 +5,7 @@ import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.hadoop.mrunit.MapDriver;
+import org.junit.Test;
 
 import junit.framework.TestCase;
 
@@ -29,8 +30,7 @@ public class TextExample extends TestCase {
 	
 	public void setUp() {
 		new maptest();
-		mapDriver = MapDriver.newMapDriver();
-		
+		mapDriver = MapDriver.newMapDriver();	
 	}
 	
 	@Test
@@ -41,9 +41,8 @@ public class TextExample extends TestCase {
 					 .runTest();
 			
 		}
-	}
-	
-	
-	
-	
+		catch(IOException e){
+			e.printStackTrace();
+		}
+	}	
 }
