@@ -7,7 +7,9 @@ public class TestRunner {
 //      Result result = JUnitCore.runClasses(TestJunit.class);
 //      Result result = JUnitCore.runClasses(JavaTest.class);
 //      Result result = JUnitCore.runClasses(JunitTestSuite.class);
-	   Result result = JUnitCore.runClasses(TestEmployeeDetails.class);
+//	   Result result = JUnitCore.runClasses(TestEmployeeDetails.class);
+//	   Result result = JUnitCore.runClasses(TestAssertions.class);
+	   Result result = JUnitCore.runClasses(JunitAnnotation.class);
 		
       for (Failure failure : result.getFailures()) {
          System.out.println(failure.toString());
