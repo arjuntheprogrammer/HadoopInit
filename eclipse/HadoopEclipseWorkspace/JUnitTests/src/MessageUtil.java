@@ -20,6 +20,12 @@ public class MessageUtil {
 		System.out.println(message);
 		while(true);
 	}
+	
+	public void printMessage2() {
+		System.out.println(message);
+		int a = 0/1;
+		int b = 1/a;
+	}
 
 	// add "Hi!" to the message
 	public String salutationMessage() {
