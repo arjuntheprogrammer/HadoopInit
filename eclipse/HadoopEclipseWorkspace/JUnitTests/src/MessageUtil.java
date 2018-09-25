@@ -15,6 +15,11 @@ public class MessageUtil {
 		System.out.println(message);
 		return message;
 	}
+	
+	public void printMessage1() {
+		System.out.println(message);
+		while(true);
+	}
 
 	// add "Hi!" to the message
 	public String salutationMessage() {

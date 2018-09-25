@@ -23,8 +23,13 @@ public class JunitAnnotation {
 	}
 	
 	@Test
-	public void test() {
-		System.out.println("in test");
+	public void test1() {
+		System.out.println("in test1");
+	}
+	
+	@Test
+	public void test2() {
+		System.out.println("in test2");
 	}
 	
 	@Ignore
