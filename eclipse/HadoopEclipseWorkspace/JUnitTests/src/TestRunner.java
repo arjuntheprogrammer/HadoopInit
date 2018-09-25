@@ -11,7 +11,8 @@ public class TestRunner {
 //	   Result result = JUnitCore.runClasses(TestAssertions.class);
 //	   Result result = JUnitCore.runClasses(JunitAnnotation.class);
 //	   Result result = JUnitCore.runClasses(TimeTestJUnit.class);
-	   Result result = JUnitCore.runClasses(ExceptionTestJUnit.class);
+//	   Result result = JUnitCore.runClasses(ExceptionTestJUnit.class);
+	   Result result = JUnitCore.runClasses(PrimeNumberCheckerTest.class);
 		
       for (Failure failure : result.getFailures()) {
          System.out.println(failure.toString());
